@@ -13,24 +13,26 @@ const Home1Page = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
 
-        <div className="bg-green-500"
+        <div
         // className="bg-cover bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-screen w-fit md:w-full"
         // style={{
         //   backgroundImage: "url('images/img_herosection_972x1728.png')",
         // }}
         >
 
-<Img
-            className="h-[90vh] sm:h-auto object-cover   w-fit md:w-full"
+           <Img
+            className="h-[90vh] sm:h-auto object-cover z-10   w-fit md:w-full"
             src="images/img_herosection_972x1728.png"
             alt="image"
-          />
+          /> 
+          
 
           <div className="absolute flex flex-col h-full inset-[0] items-center justify-end m-auto px-10 sm:px-5 py-20 w-full">
-            
+          
             <div className="flex flex-col gap-[50px] items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
                 <div className="flex flex-col items-start justify-end w-full">
+                  
                   <Text
                     className="leading-[72.00px] max-w-[724px] md:max-w-full md:text-5xl text-[64px] text-white-A700"
                     size="txtCreatoDisplayBold64"
@@ -40,7 +42,7 @@ const Home1Page = () => {
                 </div>
               </div>
               <div className="flex flex-col font-satoshivariable items-center justify-start w-full">
-                <div className="flex flex-col items-center justify-start w-full">
+                <div className="flex flex-col items-start justify-start w-full">
                   <Text
                     className="leading-[32.00px] max-w-[724px] md:max-w-full text-2xl md:text-[22px] text-white-A700 sm:text-xl"
                     size="txtSatoshiVariableMedium24"
@@ -51,7 +53,7 @@ const Home1Page = () => {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col font-satoshivariable items-end justify-start pt-5 w-full">
+              <div className="flex flex-col font-satoshivariable items-start justify-start pt-5 w-full">
                 <Button
                   className="cursor-pointer font-bold min-w-[191px] rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl"
                   color="gray_900_02"
