@@ -12,14 +12,22 @@ const Home1Page = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
-        
-        <div
-          className="bg-cover bg-no-repeat font-creatodisplay md:h-[548px] h-[972px] px-20 md:px-5 h-screen w-screen md:w-full"
-          style={{
-            backgroundImage: "url('images/img_herosection_972x1728.png')",
-          }}
+
+        <div className="bg-green-500"
+        // className="bg-cover bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-screen w-fit md:w-full"
+        // style={{
+        //   backgroundImage: "url('images/img_herosection_972x1728.png')",
+        // }}
         >
+
+<Img
+            className="h-[90vh] sm:h-auto object-cover   w-fit md:w-full"
+            src="images/img_herosection_972x1728.png"
+            alt="image"
+          />
+
           <div className="absolute flex flex-col h-full inset-[0] items-center justify-end m-auto px-10 sm:px-5 py-20 w-full">
+            
             <div className="flex flex-col gap-[50px] items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
                 <div className="flex flex-col items-start justify-end w-full">
@@ -86,7 +94,7 @@ const Home1Page = () => {
                 Contact Us
               </Button>
             </div>
-            <div className="flex flex-1 flex-col h-full items-center justify-end py-5 w-full">
+            <div className="flex flex-1 flex-col h-full items-end justify-end py-5 w-full">
               <Button
                 className="cursor-pointer font-bold leading-[normal] min-w-[129px] text-[15px] text-center"
                 shape="round"
