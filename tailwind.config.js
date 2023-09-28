@@ -31,9 +31,10 @@ module.exports = {
         black: { 900: "#000000" },
         white: { A700: "#ffffff" },
       },
+      // Fall back font none
       fontFamily: {
         sfprotext: "SF Pro Text",
-        creatodisplay: "Creato Display",
+        creatodisplay: ["Creato Display"],
         satoshivariable: "Satoshi Variable",
       },
     },
