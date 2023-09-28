@@ -210,8 +210,8 @@ const AboutPage = () => {
             </List>
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+        <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-8 items-center justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
@@ -237,7 +237,7 @@ const AboutPage = () => {
             </div>
             <div className="flex flex-col items-start justify-center w-full">
               <Img
-                className="h-[480px] md:h-auto object-cover rounded-bl-[20px] rounded-br-[20px] w-full"
+                className=" md:h-auto object-cover rounded-[20px] w-fit"
                 src="images/img_pexelscottonbr_11.png"
                 alt="pexelscottonbr_One"
               />
