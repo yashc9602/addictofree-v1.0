@@ -14,12 +14,12 @@ const Home1Page = () => {
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
 
         <div
-        // className="bg-cover bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-screen w-fit md:w-full"
+        className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-full w-full md:w-full"
         // style={{
         //   backgroundImage: "url('images/img_herosection_972x1728.png')",
         // }}
         >
-
+          <div></div>
           <Img
             className="h-[90vh] sm:h-auto object-cover z-10   w-fit md:w-full"
             src="images/img_herosection_972x1728.png"
@@ -108,6 +108,7 @@ const Home1Page = () => {
               </Button>
             </div>
           </div>
+          
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px]  mx-auto sm:px-5 py-5 w-full">
