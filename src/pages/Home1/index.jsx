@@ -14,7 +14,7 @@ const Home1Page = () => {
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
 
         <div
-        className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-full w-full md:w-full"
+          className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-full w-full md:w-full"
         // style={{
         //   backgroundImage: "url('images/img_herosection_972x1728.png')",
         // }}
@@ -107,7 +107,7 @@ const Home1Page = () => {
               </Button>
             </div>
           </div>
-          
+
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px]  mx-auto sm:px-5 py-5 w-full">
@@ -191,6 +191,7 @@ const Home1Page = () => {
                 </Text>
               </div>
             </div>
+            {/* Image size a bit modification need to be done */}
             <Img
               className="md:h-[720px] sm:h-auto  object-cover rounded-[20px] h-[auto] w-[50%]  md:w-full"
               src="images/img_image.png"
@@ -479,7 +480,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                        AddictoFree's tech-based approach made rehab accessible and effective. The app guided me through recovery, transforming my life.
+                          AddictoFree's tech-based approach made rehab accessible and effective. The app guided me through recovery, transforming my life.
                         </>
                       </Text>
                     </div>
@@ -514,7 +515,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                        AddictoFree's tech-based approach made rehab accessible and effective. The app guided me through recovery, transforming my life.
+                          AddictoFree's tech-based approach made rehab accessible and effective. The app guided me through recovery, transforming my life.
                         </>
                       </Text>
                     </div>
@@ -549,7 +550,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                        AddictoFree's innovative app turned my rehab journey into a seamless experience. Tech-based solutions made a world of difference.
+                          AddictoFree's innovative app turned my rehab journey into a seamless experience. Tech-based solutions made a world of difference.
                         </>
                       </Text>
                     </div>
@@ -584,7 +585,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                        The tech-based approach is a game-changer in my recovery.
+                          The tech-based approach is a game-changer in my recovery.
                         </>
                       </Text>
                     </div>
@@ -619,7 +620,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                        AddictoFree's app revolutionized my rehab journey. With its tech-based solutions, I found a new path to recovery.
+                          AddictoFree's app revolutionized my rehab journey. With its tech-based solutions, I found a new path to recovery.
                         </>
                       </Text>
                     </div>
