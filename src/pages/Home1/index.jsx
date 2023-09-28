@@ -19,7 +19,6 @@ const Home1Page = () => {
         //   backgroundImage: "url('images/img_herosection_972x1728.png')",
         // }}
         >
-          <div></div>
           <Img
             className="h-[90vh] sm:h-auto object-cover z-10   w-fit md:w-full"
             src="images/img_herosection_972x1728.png"
@@ -302,12 +301,12 @@ const Home1Page = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+        <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20  md:px-10 sm:px-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-10 items-start justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
-                  className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
+                  className="text-4xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
                   size="txtCreatoDisplayBold48"
                 >
                   How Addictofree Works
@@ -315,16 +314,16 @@ const Home1Page = () => {
               </div>
             </div>
             <div className="flex md:flex-col flex-row font-satoshivariable gap-10 items-start justify-center w-full">
-              <div className="flex flex-1 flex-col gap-10 items-center justify-start w-full">
-                <div className="flex flex-col gap-5 items-start justify-center md:pl-10 pl-20 pr-10 sm:px-5 py-10 w-full">
+              <div className="flex flex-1 flex-col gap-1 items-center justify-start w-full">
+                <div className="flex flex-col gap-1 items-start justify-center md:pl-10 pl-10 pr-10 sm:px-5 py-10 w-full">
                   <Text
-                    className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02"
+                    className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-lg text-gray-900_02"
                     size="txtSatoshiVariableBold28"
                   >
                     Get your Addictofree device and download the app
                   </Text>
                   <Text
-                    className="leading-[32.00px] max-w-[584px] md:max-w-full text-2xl md:text-[22px] text-gray-600 sm:text-xl"
+                    className="leading-[32.00px] max-w-[584px] md:max-w-full text-lg md:text-[22px] text-gray-600 sm:text-xl"
                     size="txtSatoshiVariableMedium24Gray600"
                   >
                     Our easy-to-use app is available on both Android and iOS
@@ -339,7 +338,7 @@ const Home1Page = () => {
                     />
                   </div>
                 </div>
-                <div className="flex flex-col gap-5 items-start justify-center md:pl-10 pl-20 pr-10 sm:px-5 py-10 w-full">
+                <div className="flex flex-col gap-1 items-start justify-center md:pl-10 pl-10 pr-10 sm:px-5 py-10 w-full">
                   <Text
                     className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02"
                     size="txtSatoshiVariableBold28"
@@ -347,14 +346,14 @@ const Home1Page = () => {
                     Sync the device and start your personalized treatment plan
                   </Text>
                   <Text
-                    className="leading-[32.00px] max-w-[584px] md:max-w-full text-2xl md:text-[22px] text-gray-600 sm:text-xl"
+                    className="leading-[32.00px] max-w-[584px] md:max-w-full text-lg md:text-[22px] text-gray-600 sm:text-xl"
                     size="txtSatoshiVariableMedium24Gray600"
                   >
                     With a simple setup process, you can start your journey
                     towards recovery immediately.
                   </Text>
                 </div>
-                <div className="flex flex-col gap-5 items-start justify-center md:pl-10 pl-20 pr-10 sm:px-5 py-10 w-full">
+                <div className="flex flex-col gap-1 items-start justify-center md:pl-10 pl-10 pr-10 sm:px-5 py-10 w-full">
                   <Text
                     className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02 w-full"
                     size="txtSatoshiVariableBold28"
@@ -371,7 +370,7 @@ const Home1Page = () => {
                 </div>
               </div>
               <Img
-                className="md:h-[876px] sm:h-auto h-full max-h-[876px] max-w-[744px] object-cover rounded-[20px] sm:w-[] md:w-[]"
+                className="md:h-[876px] sm:h-auto  h-[90vh]  object-cover  rounded-[20px] sm:w-[] md:w-[] w-fit"
                 src="images/img_image_876x744.png"
                 alt="image_Two"
               />
