@@ -10,69 +10,7 @@ const ContactPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
-        <header className="flex flex-col items-center justify-center md:px-5 w-full">
-          <div className="flex flex-col items-center justify-center w-full">
-            <div className="bg-gray-900 flex flex-row items-start justify-start pt-2 px-2 w-full">
-              <Img
-                className="h-3 ml-[5px] mt-2"
-                src="images/img_signal.svg"
-                alt="signal"
-              />
-              <div
-                className="bg-cover bg-no-repeat flex flex-col h-[34px] items-center justify-start ml-[5px] p-[9px] w-[15%]"
-                style={{ backgroundImage: "url('images/img_tab.svg')" }}
-              >
-                <div className="flex flex-row items-start justify-start w-[92%] md:w-full">
-                  <Img
-                    className="h-4 md:h-auto object-cover w-[9%]"
-                    src="images/img_faviconreplace.png"
-                    alt="faviconreplace"
-                  />
-                  <div className="flex flex-col items-center justify-start ml-[7px]">
-                    <Text
-                      className="text-white-A700 text-xs"
-                      size="txtSFProTextRegular12"
-                    >
-                      Addictofree
-                    </Text>
-                  </div>
-                  <Img
-                    className="h-[7px] ml-[117px] mt-1 w-[7px]"
-                    src="images/img_arrowleft.svg"
-                    alt="arrowleft"
-                  />
-                </div>
-              </div>
-              <Img
-                className="h-3 ml-2 mt-[11px] w-3"
-                src="images/img_plus.svg"
-                alt="plus"
-              />
-            </div>
-            <div className="md:h-[141px] h-[37px] relative w-full">
-              <div className="bg-blue_gray-900 flex flex-col h-full items-center justify-end m-auto pt-9 w-full">
-                <Line className="bg-gray-900_01 h-px w-full" />
-              </div>
-              <div className="absolute flex md:flex-col flex-row md:gap-10 h-max inset-[0] items-center justify-between m-auto w-[98%]">
-                <Img className="h-[13px]" src="images/img_car.svg" alt="car" />
-                <div className="bg-gray-900 flex flex-row gap-3 items-center justify-start p-1 rounded-[14px]">
-                  <Img
-                    className="h-2.5 ml-[9px]"
-                    src="images/img_lock.svg"
-                    alt="lock"
-                  />
-                  <Text
-                    className="mt-0.5 text-sm text-white-A700"
-                    size="txtSFProTextRegular14"
-                  >
-                    https://www.addictofree.com
-                  </Text>
-                </div>
-                <div className="bg-gray-100 h-[13px] md:mt-0 my-[7px] rounded-md w-[1%]"></div>
-              </div>
-            </div>
-          </div>
-        </header>
+        
         <div
           className="bg-cover bg-no-repeat font-creatodisplay md:h-[693px] h-[972px] md:px-5 relative w-full"
           style={{ backgroundImage: "url('images/img_frame53.png')" }}
@@ -499,13 +437,13 @@ const ContactPage = () => {
                     size="sm"
                     variant="fill"
                   ></Input>
-                  <TextArea
+                  {/* <TextArea
                     className="bg-gray-100_01 border border-gray-300 border-solid font-medium h-[120px] leading-[normal] p-[15px] rounded-[10px] text-[15px] placeholder:text-gray-400 text-gray-400 text-left w-full"
                     name="input_Five"
                     placeholder="Your Message"
                     name="input_Five"
                     placeholder="Your Message"
-                  ></TextArea>
+                  ></TextArea> */}
                 </div>
                 <Button
                   className="cursor-pointer font-bold rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl w-full"

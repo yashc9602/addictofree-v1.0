@@ -20,19 +20,19 @@ const Home1Page = () => {
         // }}
         >
 
-           <Img
+          <Img
             className="h-[90vh] sm:h-auto object-cover z-10   w-fit md:w-full"
             src="images/img_herosection_972x1728.png"
             alt="image"
-          /> 
-          
+          />
+
 
           <div className="absolute flex flex-col h-full inset-[0] items-center justify-end m-auto px-10 sm:px-5 py-20 w-full">
-          
+
             <div className="flex flex-col gap-[50px] items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
                 <div className="flex flex-col items-start justify-end w-full">
-                  
+
                   <Text
                     className="leading-[72.00px] max-w-[724px] md:max-w-full md:text-5xl text-[64px] text-white-A700"
                     size="txtCreatoDisplayBold64"
@@ -210,8 +210,8 @@ const Home1Page = () => {
             </div>
             <div className="flex flex-col items-start justify-center w-full">
               <div className="flex flex-col gap-5 items-center justify-start w-full">
-                <div className="bg-gray-100_01 flex md:flex-col flex-row gap-10 items-center justify-start max-w-[1488px] rounded-[20px] w-full">
-                  <div className="flex flex-1 flex-col gap-5 h-[600px] md:h-auto items-start justify-center md:pl-10 pl-20 pr-10 sm:px-5 py-10 w-full">
+                <div className="bg-gray-100_01 flex md:flex-col flex-row gap-10 items-center justify-center max-w-[1488px] rounded-[20px] w-full">
+                  <div className="flex flex-1 flex-col gap-5  md:h-auto items-start justify-center md:pl-10 pl-20 pr-10 sm:px-5 py-10 w-full">
                     <Text
                       className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900_02 w-full"
                       size="txtCreatoDisplayBold36"
@@ -227,11 +227,20 @@ const Home1Page = () => {
                       personalized treatment plan tailored to individual needs.
                     </Text>
                   </div>
-                  <Img
-                    className="md:flex-1 h-[600px] sm:h-auto object-cover w-[744px] md:w-full"
+                  <div className="flex flex-1 gap-5 h-full md:h-auto items-start justify-center md:pl-10  sm:px-5  w-full">
+                    <Img
+                      className=""
+                      src="images/img_image_600x744.png"
+                      alt="image_One"
+                    />
+                  </div>
+                  {/* <div className="flex-1  "> */}
+                  {/* <Img
+                    className="md:flex-1  sm:h-auto w-fit  md:w-full"
                     src="images/img_image_600x744.png"
                     alt="image_One"
-                  />
+                  /> */}
+                  {/* </div> */}
                 </div>
                 <List
                   className="sm:flex-col flex-row gap-5 grid md:grid-cols-1 grid-cols-2 justify-center w-full"
