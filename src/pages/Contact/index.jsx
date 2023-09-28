@@ -10,17 +10,17 @@ const ContactPage = () => {
   return (
     <>
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
-        
+
         <div
           className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[693px] h-full md:px-5 relative w-full"
-          // style={{ backgroundImage: "url('images/img_frame53.png')" }}
+        // style={{ backgroundImage: "url('images/img_frame53.png')" }}
         >
           <div className="flex flex-row w-full items-center justify-end ">
-          <Img
-            className="h-[90vh] sm:h-auto object-cover mx- w-fit md:w-full"
-            src="images/Contact Us.jpg"
-            alt="image"
-          />
+            <Img
+              className="h-[90vh] sm:h-auto object-cover mx- w-fit md:w-full"
+              src="images/Contact Us.jpg"
+              alt="image"
+            />
           </div>
           <div className="absolute flex flex-col md:h-auto h-full inset-[0] items-center justify-start m-auto max-w-[1568px] px-10 sm:px-5 py-60 w-full">
             <div className="flex flex-col gap-10 items-start justify-end w-full">
@@ -444,13 +444,12 @@ const ContactPage = () => {
                     size="sm"
                     variant="fill"
                   ></Input>
-                  {/* <TextArea
+                  <TextArea
                     className="bg-gray-100_01 border border-gray-300 border-solid font-medium h-[120px] leading-[normal] p-[15px] rounded-[10px] text-[15px] placeholder:text-gray-400 text-gray-400 text-left w-full"
                     name="input_Five"
                     placeholder="Your Message"
-                    name="input_Five"
-                    placeholder="Your Message"
-                  ></TextArea> */}
+
+                  ></TextArea>
                 </div>
                 <Button
                   className="cursor-pointer font-bold rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl w-full"
