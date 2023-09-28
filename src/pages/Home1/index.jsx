@@ -110,7 +110,7 @@ const Home1Page = () => {
           </div>
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px]  mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
