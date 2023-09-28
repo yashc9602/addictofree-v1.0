@@ -12,9 +12,16 @@ const ContactPage = () => {
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
         
         <div
-          className="bg-cover bg-no-repeat font-creatodisplay md:h-[693px] h-[972px] md:px-5 relative w-full"
-          style={{ backgroundImage: "url('images/img_frame53.png')" }}
+          className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[693px] h-full md:px-5 relative w-full"
+          // style={{ backgroundImage: "url('images/img_frame53.png')" }}
         >
+          <div className="flex flex-row w-full items-center justify-end ">
+          <Img
+            className="h-[90vh] sm:h-auto object-cover mx- w-fit md:w-full"
+            src="images/Contact Us.jpg"
+            alt="image"
+          />
+          </div>
           <div className="absolute flex flex-col md:h-auto h-full inset-[0] items-center justify-start m-auto max-w-[1568px] px-10 sm:px-5 py-60 w-full">
             <div className="flex flex-col gap-10 items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
@@ -28,7 +35,7 @@ const ContactPage = () => {
                 </div>
               </div>
               <div className="flex flex-col font-satoshivariable items-center justify-start w-full">
-                <div className="flex flex-col items-center justify-start w-full">
+                <div className="flex flex-col items-start justify-start w-full">
                   <Text
                     className="leading-[32.00px] max-w-[724px] md:max-w-full text-2xl md:text-[22px] text-white-A700 sm:text-xl"
                     size="txtSatoshiVariableMedium24"
@@ -45,11 +52,11 @@ const ContactPage = () => {
           </div>
           <div className="absolute flex md:flex-col flex-row font-satoshivariable gap-5 h-20 md:h-auto inset-x-[0] items-center justify-start max-w-[1728px] mx-auto md:px-10 sm:px-5 px-[84px] top-[0] w-full">
             <Img
-              className="flex-1 h-full max-h-20 sm:w-[] md:w-[]"
+              className="h-full max-h-20 sm:w-[] md:w-[]"
               src="images/img_logo.svg"
               alt="logo"
             />
-            <div className="flex flex-1 flex-row gap-2.5 h-full items-center justify-center py-5 w-full">
+            <div className="flex flex-1 flex-row gap-2.5 h-full items-center justify-end py-5 w-full">
               <Button
                 className="common-pointer bg-transparent cursor-pointer font-medium min-w-[84px] text-base text-center text-white-A700"
                 onClick={() => navigate("/")}
@@ -74,7 +81,7 @@ const ContactPage = () => {
                 Contact Us
               </Button>
             </div>
-            <div className="flex flex-1 flex-col h-full items-center justify-end py-5 w-full">
+            <div className="flex flex-1 flex-col h-full items-end justify-end py-5 w-full">
               <Button
                 className="cursor-pointer font-bold leading-[normal] min-w-[129px] text-[15px] text-center"
                 shape="round"
