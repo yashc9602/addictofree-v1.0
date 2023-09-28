@@ -419,8 +419,8 @@ const Home1Page = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+        <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video  p-20 md:px-10 sm:px-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px]  mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
@@ -430,7 +430,7 @@ const Home1Page = () => {
                   What People Are Saying
                 </Text>
               </div>
-              <div className="flex flex-col font-satoshivariable items-start justify-start md:px-10 sm:px-5 px-[200px] w-full">
+              <div className="flex flex-col font-satoshivariable items-center justify-end md:px-10 sm:px-5 px-[200px] w-full">
                 <Text
                   className="leading-[32.00px] text-2xl md:text-[22px] text-center text-gray-600 sm:text-xl"
                   size="txtSatoshiVariableMedium24Gray600"
@@ -446,7 +446,7 @@ const Home1Page = () => {
             </div>
             <div className="flex flex-col font-satoshivariable items-start justify-center w-full">
               <div className="flex flex-col items-center justify-start w-full">
-                <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center min-h-[auto] w-full">
+                <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 justify-center h-[auto] w-full">
                   <div className="bg-gray-100_01 flex flex-1 flex-col items-start justify-start rounded-[15px] w-full">
                     <div className="flex flex-col gap-5 items-start justify-start p-[30px] sm:px-5 rounded-[15px] w-full">
                       <div className="flex sm:flex-col flex-row gap-[15px] items-center justify-start w-full">
@@ -462,14 +462,14 @@ const Home1Page = () => {
                             className="text-gray-900_02 text-lg w-full"
                             size="txtSatoshiVariableBold18"
                           >
-                            Sarah Johnson
+                            Ashok Mehta
                           </Text>
-                          <Text
+                          {/* <Text
                             className="text-[15px] text-gray-600 uppercase w-full"
                             size="txtSatoshiVariableMedium15"
                           >
                             CEO - Apple INC
-                          </Text>
+                          </Text> */}
                         </div>
                       </div>
                       <Text
@@ -477,13 +477,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                          The media sharing capabilities are excellent!
-                          <br />
-                          images, and videos with my business
-                          <br />
-                          partners. I can seamlessly switch between
-                          <br />
-                          devices It&#39;s efficient and hassle-free! 📷
+                        AddictoFree's tech-based approach made rehab accessible and effective. The app guided me through recovery, transforming my life.
                         </>
                       </Text>
                     </div>
@@ -503,14 +497,14 @@ const Home1Page = () => {
                             className="text-gray-900_02 text-lg w-full"
                             size="txtSatoshiVariableBold18"
                           >
-                            Sarah Johnson
+                            Deepika Gupta
                           </Text>
-                          <Text
+                          {/* <Text
                             className="text-[15px] text-gray-600 uppercase w-full"
                             size="txtSatoshiVariableMedium15"
                           >
                             CEO - Apple INC
-                          </Text>
+                          </Text> */}
                         </div>
                       </div>
                       <Text
@@ -518,13 +512,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                          The media sharing capabilities are excellent!
-                          <br />
-                          images, and videos with my business
-                          <br />
-                          partners. I can seamlessly switch between
-                          <br />
-                          devices It&#39;s efficient and hassle-free! 📷
+                        AddictoFree's tech-based approach made rehab accessible and effective. The app guided me through recovery, transforming my life.
                         </>
                       </Text>
                     </div>
@@ -544,14 +532,14 @@ const Home1Page = () => {
                             className="text-gray-900_02 text-lg w-full"
                             size="txtSatoshiVariableBold18"
                           >
-                            Sarah Johnson
+                            Vikram Choudhary
                           </Text>
-                          <Text
+                          {/* <Text
                             className="text-[15px] text-gray-600 uppercase w-full"
                             size="txtSatoshiVariableMedium15"
                           >
                             CEO - Apple INC
-                          </Text>
+                          </Text> */}
                         </div>
                       </div>
                       <Text
@@ -559,13 +547,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                          The media sharing capabilities are excellent!
-                          <br />
-                          images, and videos with my business
-                          <br />
-                          partners. I can seamlessly switch between
-                          <br />
-                          devices It&#39;s efficient and hassle-free! 📷
+                        AddictoFree's innovative app turned my rehab journey into a seamless experience. Tech-based solutions made a world of difference.
                         </>
                       </Text>
                     </div>
@@ -585,14 +567,14 @@ const Home1Page = () => {
                             className="text-gray-900_02 text-lg w-full"
                             size="txtSatoshiVariableBold18"
                           >
-                            Sarah Johnson
+                            Dr Shreekants Shreeram
                           </Text>
-                          <Text
+                          {/* <Text
                             className="text-[15px] text-gray-600 uppercase w-full"
                             size="txtSatoshiVariableMedium15"
                           >
                             CEO - Apple INC
-                          </Text>
+                          </Text> */}
                         </div>
                       </div>
                       <Text
@@ -600,13 +582,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                          The media sharing capabilities are excellent!
-                          <br />
-                          images, and videos with my business
-                          <br />
-                          partners. I can seamlessly switch between
-                          <br />
-                          devices It&#39;s efficient and hassle-free! 📷
+                        The tech-based approach is a game-changer in my recovery.
                         </>
                       </Text>
                     </div>
@@ -626,14 +602,14 @@ const Home1Page = () => {
                             className="text-gray-900_02 text-lg w-full"
                             size="txtSatoshiVariableBold18"
                           >
-                            Sarah Johnson
+                            Rahul Verma
                           </Text>
-                          <Text
+                          {/* <Text
                             className="text-[15px] text-gray-600 uppercase w-full"
                             size="txtSatoshiVariableMedium15"
                           >
                             CEO - Apple INC
-                          </Text>
+                          </Text> */}
                         </div>
                       </div>
                       <Text
@@ -641,13 +617,7 @@ const Home1Page = () => {
                         size="txtSatoshiVariableMedium16"
                       >
                         <>
-                          The media sharing capabilities are excellent!
-                          <br />
-                          images, and videos with my business
-                          <br />
-                          partners. I can seamlessly switch between
-                          <br />
-                          devices It&#39;s efficient and hassle-free! 📷
+                        AddictoFree's app revolutionized my rehab journey. With its tech-based solutions, I found a new path to recovery.
                         </>
                       </Text>
                     </div>
