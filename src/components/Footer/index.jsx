@@ -128,14 +128,17 @@ const Footer = (props) => {
                   </Text>
                   <ul className="flex flex-col gap-2.5 items-start justify-start md:w-full common-column-list">
                     <li>
+                      <a href="https://www.instagram.com/velectron_labs/" target="_blank">
                       <Text
                         className="text-base text-gray-300"
                         size="txtSatoshiVariableMedium16Gray300"
                       >
                         Instagram
                       </Text>
+                      </a>
                     </li>
                     <li>
+                      
                       <Text
                         className="text-base text-gray-300"
                         size="txtSatoshiVariableMedium16Gray300"
@@ -152,12 +155,14 @@ const Footer = (props) => {
                       </Text>
                     </li>
                     <li>
+                    <a href="https://twitter.com/velectronl?lang=en" target="_blank">
                       <Text
                         className="text-base text-gray-300"
                         size="txtSatoshiVariableMedium16Gray300"
                       >
                         Twitter
                       </Text>
+                      </a>
                     </li>
                   </ul>
                 </div>
@@ -196,7 +201,7 @@ const Footer = (props) => {
                         Designed by{" "}
                       </span>
                       <a
-                        href="javascript:"
+                        href="https://www.behance.net/kausikkumardas" target="_blank"
                         className="text-white-A700 font-satoshivariable text-left font-medium underline"
                       >
                         Kausik Das

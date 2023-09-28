@@ -360,7 +360,7 @@ const ContactPage = () => {
                                 Designed by{" "}
                               </span>
                               <a
-                                href="javascript:"
+                                href="https://www.behance.net/kausikkumardas" target="_blank"
                                 className="text-white-A700 font-satoshivariable text-left font-medium underline"
                               >
                                 Kausik Das
