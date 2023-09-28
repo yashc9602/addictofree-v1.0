@@ -109,8 +109,8 @@ const Home1Page = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+        <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
@@ -143,14 +143,14 @@ const Home1Page = () => {
                 </Text>
               </div>
             </div>
-            <div className="flex sm:flex-col flex-row gap-5 items-start justify-center w-full">
+            <div className="flex sm:flex-col flex-row gap-5 items-start  justify-center w-full">
               <Img
-                className="flex-1 h-[460px] md:h-auto max-h-[460px] object-cover rounded-[20px] sm:w-[]"
+                className="flex-1  md:h-auto h-[400px] object-cover rounded-[20px] sm:w-[] w-fit"
                 src="images/img_pexelscottonbr.png"
                 alt="pexelscottonbr"
               />
               <Img
-                className="flex-1 h-[460px] md:h-auto max-h-[460px] object-cover rounded-[20px] sm:w-[]"
+                className="flex-1  md:h-auto max-h-[400px] object-cover rounded-[20px] sm:w-[]"
                 src="images/img_pexelscottonbr_460x734.png"
                 alt="pexelscottonbr_One"
               />
