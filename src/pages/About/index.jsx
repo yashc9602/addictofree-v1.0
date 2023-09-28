@@ -268,7 +268,7 @@ const AboutPage = () => {
                 </Text>
               </div>
             </div>
-            <div className="flex flex-col font-satoshivariable items-end justify-center w-full">
+            <div className="flex flex-col font-satoshivariable items-center justify-center w-full">
               <Button
                 className="cursor-pointer font-bold min-w-[150px] rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl"
                 color="gray_900_02"
