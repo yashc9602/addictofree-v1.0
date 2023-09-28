@@ -12,19 +12,19 @@ const AboutPage = () => {
     <>
       <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
         
-        <div className="font-satoshivariable h-[840px] md:px-5 relative w-full">
+        <div className="font-satoshivariable h-full md:px-5 relative w-full">
           <Img
-            className="h-[840px] m-auto object-cover w-full"
+            className="h-screen m-auto object-cover w-full"
             src="images/img_herosection.png"
             alt="herosection"
           />
           <div className="absolute flex md:flex-col flex-row gap-5 h-20 md:h-auto inset-x-[0] items-center justify-start max-w-[1728px] mx-auto md:px-10 sm:px-5 px-[84px] top-[0] w-full">
             <Img
-              className="flex-1 h-full max-h-20 sm:w-[] md:w-[]"
+              className="h-full max-h-20 sm:w-[] md:w-[]"
               src="images/img_logo.svg"
               alt="logo"
             />
-            <div className="flex flex-1 flex-row gap-2.5 h-full items-center justify-center py-5 w-full">
+            <div className="flex flex-1 flex-row gap-2.5 h-full items-center justify-end py-5 w-full">
               <Button
                 className="common-pointer bg-transparent cursor-pointer font-medium min-w-[84px] text-base text-center text-white-A700"
                 onClick={() => navigate("/")}
@@ -49,7 +49,7 @@ const AboutPage = () => {
                 Contact Us
               </Button>
             </div>
-            <div className="flex flex-1 flex-col h-full items-center justify-end py-5 w-full">
+            <div className="flex flex-1 flex-col h-full items-end justify-end py-5 w-full">
               <Button
                 className="cursor-pointer font-bold leading-[normal] min-w-[129px] text-[15px] text-center"
                 shape="round"
