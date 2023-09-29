@@ -380,7 +380,7 @@ const Home1Page = () => {
                 </div>
               </div>
               <Img
-                className="md:h-[876px] sm:h-auto  h-[90vh]  object-cover  rounded-[20px] sm:w-[] md:w-[] w-fit"
+                className="md:h-[876px] sm:h-auto    object-cover  rounded-[20px] sm:w-[] md:w-[] w-[40%]"
                 src="images/img_image_876x744.png"
                 alt="image_Two"
               />
