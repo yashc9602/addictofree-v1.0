@@ -14,22 +14,22 @@ const Footer = (props) => {
               src="images/img_truckdriverop_1040x1728.png"
               alt="truckdriverop"
             />
-            <div className="absolute bg-white-A700 flex flex-col gap-10 items-center justify-start md:px-10 sm:px-5 px-[60px] py-10 right-[7%] rounded-[20px] top-[10%] w-auto">
+            <div className="absolute bg-white-A700 flex flex-col gap-10 items-center justify-start md:px-10 sm:px-5 px-[60px] pb-5 pt-10 right-[7%] rounded-[20px] top-[10%] w-auto">
               <div className="flex flex-col gap-2.5 items-start justify-start w-[469px] sm:w-full">
                 <Text
-                  className="text-5xl sm:text-[38px] md:text-[44px] text-gray-900_02 w-full"
+                  className="text-4xl sm:text-[38px] md:text-[44px] text-gray-900_02 w-full"
                   size="txtCreatoDisplayBold48"
                 >
                   Any Queries?
                 </Text>
                 <Text
-                  className="text-2xl md:text-[22px] text-gray-600 sm:text-xl w-full"
+                  className="text-xl md:text-[22px] text-gray-600 sm:text-xl w-full"
                   size="txtSatoshiVariableMedium24Gray600"
                 >
                   Feel free to contact us{" "}
                 </Text>
               </div>
-              <div className="flex flex-col gap-5 items-start justify-start w-auto sm:w-full">
+              <div className="flex flex-col gap-5 items-start justify-start w-[469px] sm:w-full">
                 <Input
                   name="input"
                   placeholder="Your Name"
