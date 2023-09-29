@@ -33,7 +33,7 @@ const Home1Page = () => {
                 <div className="flex flex-col items-start justify-end w-full">
 
                   <Text
-                    className="leading-[72.00px] max-w-[724px] md:max-w-full md:text-5xl text-[64px] text-white-A700"
+                    className="leading-[72.00px] max-w-[724px] md:max-w-full md:text-5xl text-[64px] text-white-A700 "
                     size="txtCreatoDisplayBold64"
                   >
                     Empowering Recovery, One Step at a Time

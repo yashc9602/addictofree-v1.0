@@ -134,82 +134,64 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
-            <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
-              <div className="flex flex-col items-center justify-start w-full">
-                <Text
-                  className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
-                  size="txtCreatoDisplayBold48"
-                >
-                  Meet Our Team of Experts
-                </Text>
-              </div>
-            </div>
-            <List
-              className="sm:flex-col flex-row font-satoshivariable gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-3 h-[624px] justify-center max-w-[1488px] w-full"
-              orientation="horizontal"
-            >
-              <div
-                className="bg-cover bg-no-repeat flex flex-1 flex-col h-[624px] items-center justify-end pt-[476px] rounded-[20px] w-full"
-                style={{ backgroundImage: "url('images/img_frame50.png')" }}
-              >
-                <div className="bg-gray-900_cc flex flex-col gap-1 items-start justify-center p-10 sm:px-5 w-[482px] sm:w-full">
-                  <Text
-                    className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
-                    size="txtSatoshiVariableBold28WhiteA700"
-                  >
-                    Abhijit Nair
-                  </Text>
-                  <Text
-                    className="text-gray-300 text-xl w-full"
-                    size="txtSatoshiVariableMedium20"
-                  >
-                    CEO and Co-Founder
-                  </Text>
-                </div>
-              </div>
-              <div
-                className="bg-cover bg-no-repeat flex flex-1 flex-col h-[624px] items-center justify-end pt-[476px] rounded-[20px] w-full"
-                style={{ backgroundImage: "url('images/img_frame51.png')" }}
-              >
-                <div className="bg-gray-900_cc flex flex-col gap-1 items-start justify-center p-10 sm:px-5 w-[482px] sm:w-full">
-                  <Text
-                    className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
-                    size="txtSatoshiVariableBold28WhiteA700"
-                  >
-                    Raghavendra Swamy
-                  </Text>
-                  <Text
-                    className="text-gray-300 text-xl w-full"
-                    size="txtSatoshiVariableMedium20"
-                  >
-                    CXO and Co-Founder
-                  </Text>
-                </div>
-              </div>
-              <div
-                className="bg-cover bg-no-repeat flex flex-1 flex-col h-[624px] items-center justify-end pt-[476px] rounded-[20px] w-full"
-                style={{ backgroundImage: "url('images/img_frame50.png')" }}
-              >
-                <div className="bg-gray-900_cc flex flex-col gap-1 items-start justify-center p-10 sm:px-5 w-[482px] sm:w-full">
-                  <Text
-                    className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
-                    size="txtSatoshiVariableBold28WhiteA700"
-                  >
-                    Lorem Ipsum
-                  </Text>
-                  <Text
-                    className="text-gray-300 text-xl w-auto"
-                    size="txtSatoshiVariableMedium20"
-                  >
-                    CXO
-                  </Text>
-                </div>
-              </div>
-            </List>
-          </div>
+        <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
+  <div className="flex flex-col md:gap-10 gap-20 items-center justify-start h-screen max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+    <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
+      <div className="flex flex-col items-center justify-start w-full">
+        <Text
+          className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
+          size="txtCreatoDisplayBold48"
+        >
+          Meet Our Team of Experts
+        </Text>
+      </div>
+    </div>
+    <List
+      className="sm:flex-col flex-row font-satoshivariable gap-20 grid w-[60vw] sm:grid-cols-1 md:grid-cols-2 grid-cols-2 justify-center "
+      orientation="horizontal"
+    >
+      <div
+        className="bg-cover bg-no-repeat flex flex-1 flex-col items-center justify-end rounded-[20px] w-full h-[70vh] "
+        style={{ backgroundImage: "url('images/img_frame50.png')" }}
+      >
+        <div className="bg-gray-900_cc flex flex-col gap-1 items-start rounded-bl-[20px] rounded-br-[20px] justify-center p-10 sm:px-5 w-full">
+          <Text
+            className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
+            size="txtSatoshiVariableBold28WhiteA700"
+          >
+            Abhijit Nair
+          </Text>
+          <Text
+            className="text-gray-300 text-xl w-full"
+            size="txtSatoshiVariableMedium20"
+          >
+            CEO and Co-Founder
+          </Text>
         </div>
+      </div>
+      <div
+        className="bg-cover bg-no-repeat flex flex-1 flex-col items-center justify-end rounded-[20px] w-full h-[70vh] "
+        style={{ backgroundImage: "url('images/img_frame51.png')" }}
+      >
+        <div className="bg-gray-900_cc flex flex-col gap-1 items-start rounded-bl-[20px] rounded-br-[20px] justify-center p-10 sm:px-5 w-full">
+          <Text
+            className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
+            size="txtSatoshiVariableBold28WhiteA700"
+          >
+            Raghavendra Swamy
+          </Text>
+          <Text
+            className="text-gray-300 text-xl w-full"
+            size="txtSatoshiVariableMedium20"
+          >
+            CXO and Co-Founder
+          </Text>
+        </div>
+      </div>
+    </List>
+  </div>
+</div>
+
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-8 items-center justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
