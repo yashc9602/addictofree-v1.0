@@ -7,6 +7,7 @@ const sizeClasses = {
   txtSatoshiVariableMedium15: "font-medium font-satoshivariable",
   txtSatoshiVariableBold28WhiteA700: "font-bold font-satoshivariable",
   txtSFProTextRegular12: "font-normal font-sfprotext",
+  txtCreatoDisplayRegular14: "font-regular font-creatodisplay",
   txtSatoshiVariableMedium24Gray600: "font-medium font-satoshivariable",
   txtSatoshiVariableMedium16Gray300: "font-medium font-satoshivariable",
   txtSatoshiVariableBold18: "font-bold font-satoshivariable",

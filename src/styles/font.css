@@ -1,28 +1,27 @@
+
 @font-face {
     font-family: 'Creato Display';
-    src: url(/src/assets/fonts/creato_display/CreatoDisplay-Black.otf),
+    src: url(/src/assets/fonts/creato_display/CreatoDisplay-Black.otf)
     url(/src/assets/fonts/creato_display/CreatoDisplay-BlackItalic.otf),
     url(/src/assets/fonts/creato_display/CreatoDisplay-Bold.otf),
     url(/src/assets/fonts/creato_display/CreatoDisplay-BoldItalic.otf),
     url(/src/assets/fonts/creato_display/CreatoDisplay-Light.otf),
     url(/src/assets/fonts/creato_display/CreatoDisplay-LightItalic.otf),
-    url(/src/assets/fonts/creato_display/CreatoDisplay-Medium.otf),
-    url(/src/assets/fonts/creato_display/CreatoDisplay-MediumItalic.otf),
+    url(/src/assets/fonts/creato_display/CreatoDisplay-Medium.otf)
+    url(/src/assets/fonts/creato_display/CreatoDisplay-MediumItalic.otf)
     url(/src/assets/fonts/creato_display/CreatoDisplay-Regular.otf),
-    url(/src/assets/fonts/creato_display/CreatoDisplay-RegularItalic.otf),
-    url(/src/assets/fonts/creato_display/CreatoDisplay-Thin.otf),
+    url(/src/assets/fonts/creato_display/CreatoDisplay-RegularItalic.otf)
+    url(/src/assets/fonts/creato_display/CreatoDisplay-Thin.otf)
     url(/src/assets/fonts/creato_display/CreatoDisplay-ThinItalic.otf);  
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
     font-family: 'Satoshi Variable';
-    src: url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf),
-    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-BlackItalic.otf),
-    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf),
-    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-BoldItalic.otf),
-    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf),
+    src: url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Black.otf)
+    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-BlackItalic.otf)
+    /* url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Bold.otf)
+    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-BoldItalic.otf), */
+    url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Light.otf)
     url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-LightItalic.otf),
     url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Medium.otf),
     url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-MediumItalic.otf),
@@ -30,6 +29,5 @@
     url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-RegularItalic.otf),
     url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-Thin.otf),
     url(/src/assets/fonts/Satoshi_Complete/Fonts/OTF/Satoshi-ThinItalic.otf);
-    font-weight: normal;
-    font-style: normal;
+    
 }
