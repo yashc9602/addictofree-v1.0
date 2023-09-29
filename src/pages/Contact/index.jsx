@@ -22,7 +22,7 @@ const ContactPage = () => {
               alt="image"
             />
           </div>
-          <div className="absolute flex flex-col md:h-auto h-full inset-[0] items-center justify-start m-auto max-w-[1568px] px-10 sm:px-5 py-60 w-full">
+          <div className="absolute flex flex-col md:h-auto h-full inset-[0] items-center justify-start m-auto max-w-[1568px] px-10 sm:px-5 py-60 w-[80vw] ml-12">
             <div className="flex flex-col gap-10 items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
                 <div className="flex flex-col items-start justify-end w-full">
@@ -377,7 +377,7 @@ const ContactPage = () => {
           </div>
           <div className="absolute flex flex-col font-creatodisplay inset-x-[0] items-center justify-start max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 top-[29%] w-full">
             <div className="flex flex-col gap-10 items-center justify-start px-10 sm:px-5 py-5 w-full">
-              <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
+              <div className="flex flex-col  gap-5 items-center justify-start px-10 sm:px-5 w-full">
                 <div className="flex flex-col items-center justify-start w-full">
                   <Text
                     className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
@@ -398,7 +398,7 @@ const ContactPage = () => {
                   </Text>
                 </div>
               </div>
-              <div className="flex flex-col font-satoshivariable gap-10 items-start justify-start max-w-screen-sm w-full">
+              <div className="flex flex-col font-satoshivariable gap-10  items-start justify-start sm w-[50%]">
                 <div className="flex flex-col gap-5 items-start justify-start w-full">
                   <Input
                     name="input_One"

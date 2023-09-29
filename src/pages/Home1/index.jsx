@@ -19,21 +19,28 @@ const Home1Page = () => {
         //   backgroundImage: "url('images/img_herosection_972x1728.png')",
         // }}
         >
-          <Img
-            className="h-[90vh] sm:h-auto object-cover z-10   w-fit md:w-full"
+          <div className="flex flex-row w-full items-center justify-center ">
+            <Img
+              className="h-[90vh] sm:h-auto object-cover mx- w-fit md:w-full"
+              src="images/img_herosection_972x1728.png"
+              alt="image"
+            />
+          </div>
+          {/* <Img
+            className="h-[90vh] sm:h-auto object-cover  w-fit md:w-full"
             src="images/img_herosection_972x1728.png"
             alt="image"
-          />
+          /> */}
 
 
-          <div className="absolute flex flex-col h-full inset-[0] items-center justify-end m-auto px-10 sm:px-5 py-20 w-full">
+          <div className="absolute flex flex-col h-[90vh] inset-[0] items-center justify-end m-auto px-10 sm:px-5 py-20 w-[80vw] ml-12">
 
-            <div className="flex flex-col gap-[50px] items-start justify-end w-full">
+            <div className="flex flex-col gap-10 items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
                 <div className="flex flex-col items-start justify-end w-full">
 
                   <Text
-                    className="leading-[72.00px] max-w-[724px] md:max-w-full md:text-5xl text-[64px] text-white-A700 font-thin "
+                    className="leading-[72.00px]  md:max-w-full md:text-5xl text-4xl text-white-A700 font-thin "
                     size="txtCreatoDisplayBold64"
                   >
                     Empowering Recovery, One Step at a Time
@@ -54,7 +61,7 @@ const Home1Page = () => {
               </div>
               <div className="flex flex-col font-satoshivariable items-start justify-start pt-5 w-full">
                 <Button
-                  className="cursor-pointer font-bold min-w-[191px] rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl"
+                  className="cursor-pointer font-bold w-48 rounded-[12px] text-xl md:text-[22px] text-center sm:text-xl"
                   color="gray_900_02"
                   size="sm"
                   variant="fill"
@@ -128,11 +135,11 @@ const Home1Page = () => {
                   <span className="text-gray-600 font-satoshivariable font-medium">
                     <>
                       Alcoholism is not just a personal struggle; it&#39;s a
-                      societal issue. In India alone,{" "}
+                      societal issue. In India alone,{" "} 
                     </>
                   </span>
                   <span className="text-gray-900_02 font-satoshivariable font-bold">
-                    20-30%
+                    <br></br> 20-30%
                   </span>
                   <span className="text-gray-600 font-satoshivariable font-medium">
                     {" "}
@@ -193,7 +200,7 @@ const Home1Page = () => {
             </div>
             {/* Image size a bit modification need to be done */}
             <Img
-              className="md:h-[720px] sm:h-auto  object-cover rounded-[20px] h-[auto] w-[50%]  md:w-full"
+              className="md:h-[720px] sm:h-auto  object-cover rounded-[20px] w-[60%] md:w-full"
               src="images/img_image.png"
               alt="image"
             />
@@ -305,11 +312,11 @@ const Home1Page = () => {
           </div>
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20  md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-10 items-start justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-10 items-start justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
-                  className="text-4xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
+                  className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_02 w-auto"
                   size="txtCreatoDisplayBold48"
                 >
                   How Addictofree Works
@@ -320,7 +327,7 @@ const Home1Page = () => {
               <div className="flex flex-1 flex-col gap-1 items-center justify-start w-full">
                 <div className="flex flex-col gap-1 items-start justify-center md:pl-10 pl-10 pr-10 sm:px-5 py-10 w-full">
                   <Text
-                    className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-lg text-gray-900_02"
+                    className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-2xl text-gray-900_02"
                     size="txtSatoshiVariableBold28"
                   >
                     Get your Addictofree device and download the app
@@ -343,7 +350,7 @@ const Home1Page = () => {
                 </div>
                 <div className="flex flex-col gap-1 items-start justify-center md:pl-10 pl-10 pr-10 sm:px-5 py-10 w-full">
                   <Text
-                    className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02"
+                    className="leading-[36.00px] max-w-[584px] md:max-w-full sm:text-2xl md:text-[26px] text-2xl text-gray-900_02"
                     size="txtSatoshiVariableBold28"
                   >
                     Sync the device and start your personalized treatment plan
@@ -358,13 +365,13 @@ const Home1Page = () => {
                 </div>
                 <div className="flex flex-col gap-1 items-start justify-center md:pl-10 pl-10 pr-10 sm:px-5 py-10 w-full">
                   <Text
-                    className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02 w-full"
+                    className="sm:text-2xl md:text-[26px] text-2xl text-gray-900_02 w-full"
                     size="txtSatoshiVariableBold28"
                   >
                     Receive real-time insights and interventions
                   </Text>
                   <Text
-                    className="leading-[32.00px] max-w-[584px] md:max-w-full text-2xl md:text-[22px] text-gray-600 sm:text-xl"
+                    className="leading-[32.00px] max-w-[584px] md:max-w-full text-lg md:text-[22px] text-gray-600 sm:text-xl"
                     size="txtSatoshiVariableMedium24Gray600"
                   >
                     Empower yourself with actionable insights and timely
