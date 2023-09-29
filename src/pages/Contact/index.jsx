@@ -94,7 +94,7 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        <div className="font-satoshivariable h-[2286px] md:h-[2345px] md:px-5 relative w-full">
+        <div className="font-satoshivariable h-[2000px] md:h-[2345px] md:px-5 relative w-full">
           <div className="flex flex-col h-full items-center justify-start m-auto w-full">
             <div className="flex flex-col md:gap-10 gap-[538px] items-center justify-start w-full">
               <div className="flex flex-col items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
@@ -375,7 +375,7 @@ const ContactPage = () => {
               </footer>
             </div>
           </div>
-          <div className="absolute flex flex-col font-creatodisplay inset-x-[0] items-center justify-start max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 top-[29%] w-full">
+          <div className="absolute flex flex-col font-creatodisplay inset-x-[0] items-center justify-start max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 top-[29%] w-full mt-32">
             <div className="flex flex-col gap-10 items-center justify-start px-10 sm:px-5 py-5 w-full">
               <div className="flex flex-col  gap-5 items-center justify-start px-10 sm:px-5 w-full">
                 <div className="flex flex-col items-center justify-start w-full">
