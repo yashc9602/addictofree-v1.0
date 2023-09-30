@@ -201,7 +201,7 @@ const Home1Page = () => {
             </div>
             {/* Image size a bit modification need to be done */}
             <Img
-              className="md:h-[720px] sm:h-auto  object-cover rounded-[20px] w-[60%] md:w-full"
+              className="md:h-[720px] sm:h-[720px] object-cover rounded-[20px] w-[80%] md:w-full"
               src="images/img_image.png"
               alt="image"
             />

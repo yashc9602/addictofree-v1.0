@@ -127,7 +127,7 @@ const AboutPage = () => {
             </div>
             
               <Img
-                className=" md:h-auto object-cover rounded-[20px]  w-fit"
+                className=" md:h-auto object-cover rounded-[20px] w-fit sm:h-[30vh]"
                 src="images/img_pexelscottonbr_480x1488.png"
                 alt="pexelscottonbr"
               />
