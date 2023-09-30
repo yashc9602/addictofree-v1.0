@@ -11,15 +11,15 @@ const Home1Page = () => {
 
   return (
     <>
-      <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full">
+      <div className="bg-white-A700 flex flex-col font-sfprotext items-center justify-start mx-auto w-full ">
 
         <div
-          className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-full w-full md:w-full"
+          className="bg-green-600 bg-no-repeat font-creatodisplay md:h-[548px]  px-20 md:px-5 h-full w-full md:w-full sm:hidden"
         // style={{
         //   backgroundImage: "url('images/img_herosection_972x1728.png')",
         // }}
         >
-          <div className="flex flex-row w-full items-center justify-center ">
+          <div className="flex flex-row w-full items-center justify-center sm:w-[100%] ">
             <Img
               className="h-[90vh] sm:h-auto object-cover mx- w-fit md:w-full"
               src="images/img_herosection_972x1728.png"
@@ -33,7 +33,7 @@ const Home1Page = () => {
           /> */}
 
 
-          <div className="absolute flex flex-col h-[90vh] inset-[0] items-center justify-end m-auto px-10 sm:px-5 py-20 w-[80vw] ml-12">
+          <div className="absolute flex flex-col h-[90vh] inset-[0] items-center justify-end m-auto px-10  py-20 w-[80vw] ml-12 sm:px-5">
 
             <div className="flex flex-col gap-10 items-start justify-end w-full">
               <div className="flex flex-col items-start justify-end w-full">
@@ -116,6 +116,7 @@ const Home1Page = () => {
           </div>
 
         </div>
+
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px]  mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
@@ -179,7 +180,7 @@ const Home1Page = () => {
               </div>
               <div className="flex flex-col font-satoshivariable items-center justify-start w-full">
                 <Text
-                  className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02 w-auto"
+                  className="sm:text-2xl  md:text-[26px] text-[28px] text-center text-gray-900_02 w-auto"
                   size="txtSatoshiVariableBold28"
                 >
                   A Revolution in Addiction Treatment
