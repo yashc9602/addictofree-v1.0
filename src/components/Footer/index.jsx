@@ -70,7 +70,7 @@ const Footer = (props) => {
                 Submit
               </Button>
             </div>
-            <div className="absolute bg-gray-900_e5 bottom-[0] flex flex-row inset-x-[0] items-center justify-start h-[30vh] max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 w-full sm:h-full sm:relative sm:items-start">
+            <div className="absolute bg-gray-900_e5 bottom-[0] flex flex-row inset-x-[0] items-center justify-start h-[30vh]  mx-auto p-20 md:px-10 sm:px-5 w-screen sm:h-full sm:relative sm:items-start">
               <div className="flex md:flex-col flex-row gap-5 items-start justify-start w-full">
                 <Img
                   className="h-[60px] w-[300px]"
