@@ -8,13 +8,13 @@ const Footer = (props) => {
       <footer className={props.className}>
         <div className="h-screen relative w-full">
           {/* <div className="bg-white-A700 h-[708px] mx-auto w-full"></div> */}
-          <div className="absolute h-screen inset-[0] justify-center m-auto w-full">
+          <div className="absolute h-screen inset-[0] justify-center m-auto w-full sm:relative">
             <Img
-              className="h-screen m-auto object-cover w-full"
+              className="h-screen m-auto object-cover w-full sm:w-[0%]"
               src="images/img_truckdriverop_1040x1728.png"
               alt="truckdriverop"
             />
-            <div className="absolute bg-white-A700 flex flex-col gap-10 items-center justify-start md:px-10 sm:px-5 px-[60px] pb-5 pt-10 right-[7%] rounded-[20px] top-[10%] w-auto">
+            <div className="absolute bg-white-A700 flex flex-col gap-10 items-center justify-start md:px-10 sm:px-5 px-[60px] pb-5 pt-10 right-[7%] rounded-[20px] top-[10%] w-auto sm:w-[90vw] sm:right-0 sm:bg-yellow-300 ">
               <div className="flex flex-col gap-2.5 items-start justify-start w-[469px] sm:w-full">
                 <Text
                   className="text-4xl sm:text-[38px] md:text-[44px] text-gray-900_02 w-full"
@@ -62,7 +62,7 @@ const Footer = (props) => {
                 ></Input>
               </div>
               <Button
-                className="cursor-pointer font-bold font-satoshivariable rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl w-[469px]"
+                className="cursor-pointer font-bold font-satoshivariable rounded-[12px] text-2xl md:text-[22px] text-center sm:text-xl w-[469px] sm:w-[50vw]"
                 color="gray_900_02"
                 size="sm"
                 variant="fill"
@@ -70,7 +70,7 @@ const Footer = (props) => {
                 Submit
               </Button>
             </div>
-            <div className="absolute bg-gray-900_e5 bottom-[0] flex flex-row inset-x-[0] items-center justify-start h-[30vh] max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 w-full">
+            <div className="absolute bg-gray-900_e5 bottom-[0] flex flex-row inset-x-[0] items-center justify-start h-[30vh] max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 w-full sm:h-full sm:relative sm:items-start">
               <div className="flex md:flex-col flex-row gap-5 items-start justify-start w-full">
                 <Img
                   className="h-[60px] w-[300px]"
