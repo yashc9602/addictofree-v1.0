@@ -207,7 +207,7 @@ const Home1Page = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
+        <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-20 items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
@@ -221,7 +221,7 @@ const Home1Page = () => {
             </div>
             <div className="flex flex-col items-start justify-center w-full">
               <div className="flex flex-col gap-5 items-center justify-start w-full">
-                <div className="bg-gray-100_01 flex md:flex-col flex-row gap-10 items-center justify-center max-w-[1488px] rounded-[20px] w-full">
+                <div className="bg-gray-100_01 flex md:flex-col flex-row gap-10 items-center justify-center  rounded-[20px] w-full overflow-hidden">
                   <div className="flex flex-1 flex-col gap-5  md:h-auto items-start justify-center md:pl-10 pl-20 pr-10 sm:px-5 py-10 w-full">
                     <Text
                       className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900_02 w-full"
@@ -238,7 +238,7 @@ const Home1Page = () => {
                       personalized treatment plan tailored to individual needs.
                     </Text>
                   </div>
-                  <div className="flex flex-1 gap-5 h-full md:h-auto items-start justify-center md:pl-10  sm:px-5  w-full">
+                  <div className="flex flex-1  h-full md:h-auto    md:flex-1  sm:h-auto w-fit  md:w-full  ">
                     <Img
                       className=""
                       src="images/img_image_600x744.png"
