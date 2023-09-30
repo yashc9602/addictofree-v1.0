@@ -201,23 +201,25 @@ const ContactPage = () => {
                       </div>
                     </div>
                     <Img
-                      className="md:h-[508px] sm:h-auto h-full max-h-[508px] max-w-[744px] object-cover rounded-[20px] sm:w-[] md:w-[]"
+                      className="md:h-[508px] sm:h-auto h-full max-h-[508px] max-w-[744px] object-cover rounded-[20px] sm:w-[0%] md:w-[]"
                       src="images/img_image_508x744.png"
                       alt="image"
                     />
                   </div>
                 </div>
               </div>
-              <footer className="flex items-center justify-center w-full">
+              <footer className="flex items-center justify-center w-full ">
                 <div className="h-screen relative w-full">
-                  <div className="bg-white-A700 h-[708px] mx-auto w-full"></div>
-                  <div className="absolute h-screen inset-[0] justify-center m-auto w-full">
+                  <div className="bg-white-A700 h-[708px] mx-auto w-full">
+                    
+                  </div>
+                  <div className="absolute h-screen inset-[0] justify-center m-auto w-full sm:h-full">
                     <Img
-                      className="h-screen m-auto object-cover w-full"
+                      className="h-screen m-auto object-cover w-full sm:w-[0%] md:w-[]"
                       src="images/img_truckdriverop_1040x1728.png"
                       alt="truckdriverop"
                     />
-                    <div className="absolute bg-gray-900_e5 bottom-[0] flex flex-row inset-x-[0] items-center justify-start h-[30vh] max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 w-full">
+                    <div className="absolute bg-gray-900_e5 bottom-[0] flex flex-row inset-x-[0] items-center justify-start h-[30vh] max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 sm:relative sm:h-full sm:items-start w-full">
                       <div className="flex md:flex-col flex-row gap-5 items-start justify-start w-full">
                         <Img
                           className="h-[60px] w-[300px]"
@@ -375,7 +377,7 @@ const ContactPage = () => {
               </footer>
             </div>
           </div>
-          <div className="absolute flex flex-col font-creatodisplay inset-x-[0] items-center justify-start max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 top-[29%] w-full mt-32">
+          <div className="absolute flex flex-col font-creatodisplay inset-x-[0] items-center justify-start max-w-[1728px] mx-auto p-20 md:px-10 sm:px-5 top-[29%] w-full sm:top-[20%] mt-32">
             <div className="flex flex-col gap-10 items-center justify-start px-10 sm:px-5 py-5 w-full">
               <div className="flex flex-col  gap-5 items-center justify-start px-10 sm:px-5 w-full">
                 <div className="flex flex-col items-center justify-start w-full">
