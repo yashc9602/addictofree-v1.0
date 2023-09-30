@@ -67,7 +67,7 @@ const AboutPage = () => {
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
-                  className="sm:text-2xl md:text-[26px] text-[28px] text-gray-900_02 w-auto"
+                  className="sm:text-2xl md:text-[26px] text-[28px] text-center text-gray-900_02 w-auto"
                   size="txtSatoshiVariableBold28"
                 >
                   Velectron Labs Private Limited
@@ -98,7 +98,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-7 items-center justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-7 items-center justify-start max-w-[1568px] h-full mx-auto sm:px-5 sm:h-full py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
@@ -125,17 +125,17 @@ const AboutPage = () => {
                 </Text>
               </div>
             </div>
-            <div className="flex flex-col items-start justify-center w-full">
+            
               <Img
                 className=" md:h-auto object-cover rounded-[20px]  w-fit"
                 src="images/img_pexelscottonbr_480x1488.png"
                 alt="pexelscottonbr"
               />
-            </div>
+            
           </div>
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20 md:px-10 sm:px-5 w-full">
-  <div className="flex flex-col md:gap-10 gap-20 items-center justify-start h-screen max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
+  <div className="flex flex-col md:gap-10 gap-20 items-center justify-start h-full max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
     <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
       <div className="flex flex-col items-center justify-start w-full">
         <Text
@@ -151,10 +151,10 @@ const AboutPage = () => {
       orientation="horizontal"
     >
       <div
-        className="bg-cover bg-no-repeat flex flex-1 flex-col items-center justify-end rounded-[20px] w-full h-[70vh] "
+        className="bg-cover bg-no-repeat flex flex-1 flex-col items-center justify-end rounded-[20px] w-full h-[70vh] sm:h-[50vh]  "
         style={{ backgroundImage: "url('images/img_frame50.png')" }}
       >
-        <div className="bg-gray-900_cc flex flex-col gap-1 items-start rounded-bl-[20px] rounded-br-[20px] justify-center p-10 sm:px-5 w-full">
+        <div className="bg-gray-900_cc flex flex-col gap-1 items-start rounded-bl-[20px] rounded-br-[20px] justify-center p-10 sm:px-5 h-[15vh]   w-full">
           <Text
             className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
             size="txtSatoshiVariableBold28WhiteA700"
@@ -170,10 +170,10 @@ const AboutPage = () => {
         </div>
       </div>
       <div
-        className="bg-cover bg-no-repeat flex flex-1 flex-col items-center justify-end rounded-[20px] w-full h-[70vh] "
+        className="bg-cover bg-no-repeat flex flex-1 flex-col items-center justify-end rounded-[20px] w-full h-[70vh] sm:h-[50vh] "
         style={{ backgroundImage: "url('images/img_frame51.png')" }}
       >
-        <div className="bg-gray-900_cc flex flex-col gap-1 items-start rounded-bl-[20px] rounded-br-[20px] justify-center p-10 sm:px-5 w-full">
+        <div className="bg-gray-900_cc flex flex-col gap-1 items-start rounded-bl-[20px] rounded-br-[20px] justify-center p-10 sm:px-5 h-[15vh]  w-full">
           <Text
             className="sm:text-2xl md:text-[26px] text-[28px] text-white-A700 w-full"
             size="txtSatoshiVariableBold28WhiteA700"
@@ -219,7 +219,7 @@ const AboutPage = () => {
             </div>
             <div className="flex flex-col items-start justify-center w-full">
               <Img
-                className=" md:h-auto object-cover rounded-[20px] w-fit"
+                className=" md:h-auto object-cover rounded-[20px] w-fit sm:h-[30vh]  "
                 src="images/img_pexelscottonbr_11.png"
                 alt="pexelscottonbr_One"
               />
