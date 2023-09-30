@@ -313,7 +313,7 @@ const Home1Page = () => {
           </div>
         </div>
         <div className="flex flex-col font-creatodisplay items-start justify-start aspect-video p-20  md:px-10 sm:px-5 w-full">
-          <div className="flex flex-col md:gap-10 gap-10 items-start justify-start max-w-[1568px] h-screen mx-auto sm:px-5 py-5 w-full">
+          <div className="flex flex-col md:gap-10 gap-10 items-start justify-start max-w-[1568px] h-full mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <Text
@@ -341,7 +341,12 @@ const Home1Page = () => {
                     platforms.
                   </Text>
                   <div className="flex sm:flex-col flex-row gap-5 items-center justify-start pt-5 w-auto sm:w-full">
-                    <HomeGoogleplay className="flex flex-col items-center justify-start w-[48%] sm:w-full" />
+                    {/* <HomeGoogleplay className="flex flex-col items-center justify-start w-[48%] sm:w-[100%]" /> */}
+                    <Img
+                      className="h-[52px] w-[180px]"
+                      src="images/Google Play.svg"
+                      alt="appstore"
+                    />
                     <Img
                       className="h-[52px] w-[180px]"
                       src="images/img_appstore.svg"
@@ -381,14 +386,14 @@ const Home1Page = () => {
                 </div>
               </div>
               <Img
-                className="md:h-[876px] sm:h-auto    object-cover  rounded-[20px] sm:w-[] md:w-[] w-[40%]"
+                className="md:h-[876px] sm:h-auto    object-cover  rounded-[20px] sm:w-[100%] md:w-[] w-[40%]"
                 src="images/img_image_876x744.png"
                 alt="image_Two"
               />
             </div>
           </div>
         </div>
-        <div className="flex flex-col font-creatodisplay items-start justify-start max-w-[1728px] p-20 md:px-10 sm:px-5 w-full">
+        <div className="flex flex-col font-creatodisplay items-start justify-start  p-20 md:px-10 sm:px-5  w-full">
           <div className="flex flex-col items-center justify-start max-w-[1568px] mx-auto sm:px-5 py-5 w-full">
             <div className="flex flex-col gap-5 items-center justify-start px-10 sm:px-5 w-full">
               <div className="flex flex-col items-center justify-start w-full">
